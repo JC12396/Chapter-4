@@ -1,22 +1,17 @@
 package Exercises;
 
+
 import java.util.Random;
-import static java.lang.StrictMath.acos;
+
 
 public class MathTest
 {
     public static void main(String[] args)
     {
-        double square = 37;
-        double sineCosine = 300;
-        double floorCeilingRound = 22.8;
-        char smallLargeD = 'D';
-        double smallLarge = 71;
         Random r = new Random();
 
-        acos(sineCosine);
-
-
-
+        MathEquations math = new MathEquations(Math.sqrt(37), Math.cos(Math.toRadians(300)), Math.sin(Math.toRadians(300)), Math.floor(22.8),
+                Math.ceil(22.8), Math.round(22.8), Math.max('D', 71), Math.min('D', 71), (r.nextInt(20) + 1));
+        math.display();
     }
 }

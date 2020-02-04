@@ -1,6 +1,7 @@
 package youDoIt;
 
-public class CarInsurancePolicy{
+public class CarInsurancePolicy
+{
 
     private int policyNumber;
     private int numPayments;
